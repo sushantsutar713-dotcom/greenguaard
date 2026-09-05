@@ -53,7 +53,7 @@ if (!defined("BASE_URL")) {\n\
     if (!empty($envBase)) {\n\
         define("BASE_URL", rtrim($envBase, "/"));\n\
     } else {\n\
-        $isHttps = (!empty($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] !== "off") || (!empty($_SERVER["HTTP_X_FORWARDED_PROTO"]) && $_SERVER["HTTP_X_FORWARDED_PROTO"] === "https");\n\
+        $isHttps = (!empty($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] !== "off") || (!empty($_SERVER["HTTP_X_FORWARDED_PROTO"]) && strpos($_SERVER["HTTP_X_FORWARDED_PROTO"], "https") !== false) || (isset($_SERVER["HTTP_HOST"]) && strpos($_SERVER["HTTP_HOST"], "onrender.com") !== false);\n\
         $protocol = $isHttps ? "https://" : "http://";\n\
         $host = $_SERVER["HTTP_HOST"] ?? "localhost";\n\
         $scriptDir = str_replace("\\\\", "/", dirname($_SERVER["SCRIPT_NAME"] ?? ""));\n\
