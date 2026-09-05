@@ -1,0 +1,26 @@
+[
+  {
+    "upvote_id": 1,
+    "report_id": 1001,
+    "user_id": 3,
+    "created_at": "2026-09-02 10:15:00"
+  },
+  {
+    "upvote_id": 2,
+    "report_id": 1001,
+    "user_id": 4,
+    "created_at": "2026-09-02 11:45:00"
+  },
+  {
+    "upvote_id": 3,
+    "report_id": 1002,
+    "user_id": 2,
+    "created_at": "2026-09-02 14:30:00"
+  },
+  {
+    "upvote_id": 4,
+    "report_id": 1004,
+    "user_id": 2,
+    "created_at": "2026-09-03 08:45:00"
+  }
+]

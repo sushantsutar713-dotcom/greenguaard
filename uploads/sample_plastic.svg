@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wetland-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="#38bdf8" opacity="0.3"/>
+  <rect y="180" width="800" height="320" fill="url(#wetland-water)" />
+
+  <!-- Wetland Reeds -->
+  <polygon points="50,220 55,100 60,220" fill="#15803d" />
+  <polygon points="65,220 75,80 85,220" fill="#166534" />
+  <polygon points="720,240 730,90 740,240" fill="#15803d" />
+  <polygon points="745,240 755,70 765,240" fill="#166534" />
+
+  <!-- Floating sea of single use plastic bottles and bags -->
+  <!-- Bottles -->
+  <rect x="180" y="240" width="30" height="70" rx="6" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" transform="rotate(35 180 240)"/>
+  <rect x="260" y="280" width="25" height="60" rx="5" fill="#fef08a" stroke="#ca8a04" stroke-width="2" transform="rotate(-20 260 280)"/>
+  <rect x="340" y="250" width="32" height="75" rx="6" fill="#bbf7d0" stroke="#16a34a" stroke-width="2" transform="rotate(45 340 250)"/>
+  <rect x="420" y="270" width="28" height="65" rx="5" fill="#bae6fd" stroke="#0284c7" stroke-width="2" transform="rotate(-50 420 270)"/>
+  <rect x="500" y="290" width="30" height="70" rx="6" fill="#fed7aa" stroke="#ea580c" stroke-width="2" transform="rotate(15 500 290)"/>
+  <rect x="580" y="260" width="26" height="60" rx="5" fill="#fbcfe8" stroke="#db2777" stroke-width="2" transform="rotate(-30 580 260)"/>
+  
+  <!-- Plastic bags floating -->
+  <path d="M220,330 Q250,300 290,340 Q320,380 270,390 Q210,380 220,330 Z" fill="#ffffff" opacity="0.75" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M380,320 Q430,290 470,350 Q440,410 390,390 Q350,370 380,320 Z" fill="#67e8f9" opacity="0.7" stroke="#0891b2" stroke-width="2"/>
+  <path d="M480,340 Q540,310 570,370 Q530,420 470,390 Z" fill="#fca5a5" opacity="0.65" stroke="#e11d48" stroke-width="2"/>
+  
+  <!-- Foam clusters -->
+  <ellipse cx="320" cy="430" rx="80" ry="30" fill="#f1f5f9" opacity="0.9"/>
+  <ellipse cx="460" cy="420" rx="100" ry="35" fill="#f8fafc" opacity="0.85"/>
+  <ellipse cx="600" cy="380" rx="70" ry="25" fill="#e2e8f0" opacity="0.8"/>
+
+  <!-- Geo-tag Overlay -->
+  <rect x="25" y="25" width="310" height="70" rx="12" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <circle cx="50" cy="50" r="10" fill="#0284c7" />
+  <text x="70" y="48" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14">EVIDENCE: PLASTIC POLLUTION</text>
+  <text x="70" y="68" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">📍 19.0144° N, 72.8479° E • Mahim Wetland</text>
+  
+  <rect x="620" y="25" width="155" height="35" rx="8" fill="rgba(2, 132, 199, 0.9)" />
+  <text x="697" y="48" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="13" text-anchor="middle">MEDIUM RISK</text>
+</svg>

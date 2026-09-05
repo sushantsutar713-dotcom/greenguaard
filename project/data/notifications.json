@@ -1,0 +1,29 @@
+[
+  {
+    "notification_id": 1,
+    "user_id": 2,
+    "report_id": 1003,
+    "message": "Your report #1003 (Commercial plastic and scrap rubber burned openly) has been marked as RESOLVED.",
+    "type": "RESOLVED",
+    "is_read": false,
+    "created_at": "2026-09-02 08:30:00"
+  },
+  {
+    "notification_id": 2,
+    "user_id": 3,
+    "report_id": 1002,
+    "message": "Your report #1002 (Unauthorized Tree Cutting) has been VERIFIED by the Environmental Authority.",
+    "type": "VERIFIED",
+    "is_read": false,
+    "created_at": "2026-09-02 16:20:00"
+  },
+  {
+    "notification_id": 3,
+    "user_id": 2,
+    "report_id": 1001,
+    "message": "Your report #1001 is now IN PROGRESS with municipal sanitation teams on-site.",
+    "type": "IN_PROGRESS",
+    "is_read": true,
+    "created_at": "2026-09-02 15:00:00"
+  }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "action_id": 1,
+        "admin_id": 1,
+        "admin_name": "Arun Kulkarni",
+        "report_id": 1003,
+        "action": "RESOLVED",
+        "department": "Fire & Disaster Emergency Services",
+        "comment": "Fire unit extinguished burning site. Violator fined under clean air bylaws.",
+        "created_at": "2026-09-02 08:30:00"
+    },
+    {
+        "action_id": 2,
+        "admin_id": 1,
+        "admin_name": "Arun Kulkarni",
+        "report_id": 1002,
+        "action": "VERIFIED",
+        "department": "Forest & Tree Protection Authority",
+        "comment": "Municipal Tree Officer verified tree felling violation. Cease-and-desist order issued.",
+        "created_at": "2026-09-02 17:15:00"
+    },
+    {
+        "action_id": 3,
+        "admin_id": 1,
+        "admin_name": "Arun Kulkarni",
+        "report_id": 1001,
+        "action": "ACTION_INITIATED",
+        "department": "Municipal Solid Waste Management Dept",
+        "comment": "Sanitation Task Force dispatched with 4 dump trucks. Clearance in progress.",
+        "created_at": "2026-09-03 08:30:00"
+    },
+    {
+        "admin_id": 1,
+        "admin_name": "Arun Kulkarni",
+        "report_id": 1007,
+        "action": "PENDING",
+        "department": "Municipal Solid Waste Management Dept",
+        "comment": "Status transitioned to PENDING",
+        "created_at": "2026-09-03 09:56:29",
+        "action_id": 4
+    },
+    {
+        "admin_id": 1,
+        "admin_name": "Arun Kulkarni",
+        "report_id": 1007,
+        "action": "PENDING",
+        "department": "Municipal Solid Waste Management Dept",
+        "comment": "Status transitioned to PENDING",
+        "created_at": "2026-09-03 09:56:35",
+        "action_id": 5
+    },
+    {
+        "admin_id": 1,
+        "admin_name": "Arun Kulkarni",
+        "report_id": 1007,
+        "action": "PENDING",
+        "department": "Municipal Solid Waste Management Dept",
+        "comment": "we resolve your problem",
+        "created_at": "2026-09-03 09:57:27",
+        "action_id": 6
+    }
+]

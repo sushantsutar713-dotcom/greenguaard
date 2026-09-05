@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#475569" />
+      <stop offset="100%" stop-color="#94a3b8" />
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="debris1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+    <linearGradient id="plastic" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="hazard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="300" fill="url(#sky)" />
+  <rect y="280" width="800" height="220" fill="url(#ground)" />
+  
+  <!-- Distant trees / embankment -->
+  <path d="M0,280 Q200,260 400,285 T800,270 L800,300 L0,300 Z" fill="#1e3a1e" opacity="0.6"/>
+  
+  <!-- River Water edge -->
+  <path d="M0,350 C300,370 500,340 800,380 L800,500 L0,500 Z" fill="#0f2b38" />
+  <path d="M0,370 C250,390 550,360 800,410 L800,500 L0,500 Z" fill="#0d202b" />
+  
+  <!-- Illegal Garbage & Debris Mound -->
+  <polygon points="120,380 250,220 380,380" fill="url(#debris1)" />
+  <polygon points="220,390 390,210 520,400" fill="#94a3b8" />
+  <polygon points="410,410 560,240 680,410" fill="url(#debris1)" />
+  <polygon points="300,420 480,260 620,430" fill="#64748b" opacity="0.9"/>
+  
+  <!-- Trash bags and plastic barrels -->
+  <circle cx="280" cy="340" r="35" fill="#0f172a" />
+  <circle cx="340" cy="360" r="30" fill="#1e293b" />
+  <rect x="420" y="320" width="50" height="70" rx="10" fill="url(#plastic)" />
+  <rect x="230" y="330" width="45" height="60" rx="8" fill="url(#hazard)" />
+  <rect x="520" y="350" width="60" height="40" rx="5" fill="#dc2626" opacity="0.85"/>
+  <ellipse cx="480" cy="390" rx="40" ry="15" fill="#0284c7" />
+  <polygon points="160,370 200,330 220,380" fill="#cbd5e1" />
+  
+  <!-- Geo-tag & Evidence Overlay -->
+  <rect x="25" y="25" width="310" height="70" rx="12" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <circle cx="50" cy="50" r="10" fill="#ef4444" />
+  <text x="70" y="48" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14">EVIDENCE: ILLEGAL DUMPING</text>
+  <text x="70" y="68" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">📍 19.0760° N, 72.8777° E • Mithi River</text>
+  
+  <rect x="620" y="25" width="155" height="35" rx="8" fill="rgba(239, 68, 68, 0.9)" />
+  <text x="697" y="48" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="13" text-anchor="middle">CRITICAL RISK</text>
+</svg>

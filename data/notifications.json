@@ -1,0 +1,82 @@
+[
+    {
+        "notification_id": 1,
+        "user_id": 2,
+        "report_id": 1003,
+        "title": "Threat Resolved",
+        "message": "Your report #1003 (Commercial Plastic & Scrap Rubber Burning) has been marked as RESOLVED by Municipal Fire & Disaster Services.",
+        "type": "RESOLVED",
+        "is_read": false,
+        "created_at": "2026-09-02 08:30:00"
+    },
+    {
+        "notification_id": 2,
+        "user_id": 3,
+        "report_id": 1002,
+        "title": "Threat Verified",
+        "message": "Your report #1002 (Unauthorized Heritage Tree Felling) has been VERIFIED by the Forest & Tree Protection Authority.",
+        "type": "VERIFIED",
+        "is_read": false,
+        "created_at": "2026-09-02 17:15:00"
+    },
+    {
+        "notification_id": 3,
+        "user_id": 2,
+        "report_id": 1001,
+        "title": "Action Initiated",
+        "message": "Your report #1001 (Illegal Construction Debris Dumping) is now IN PROGRESS with Municipal Solid Waste Task Force on-site.",
+        "type": "IN_PROGRESS",
+        "is_read": true,
+        "created_at": "2026-09-03 08:30:00"
+    },
+    {
+        "notification_id": 4,
+        "user_id": 3,
+        "report_id": 1004,
+        "title": "Triage Under Review",
+        "message": "Your report #1004 (Untreated Industrial Chemical Effluent) is UNDER REVIEW with the State Pollution Control Board.",
+        "type": "UNDER_REVIEW",
+        "is_read": false,
+        "created_at": "2026-09-03 09:00:00"
+    },
+    {
+        "user_id": 5,
+        "report_id": 1007,
+        "title": "Report Logged Successfully",
+        "message": "Your environmental incident report #1007 (illegal dumping) has been submitted and is currently PENDING VERIFICATION.",
+        "type": "SUBMITTED",
+        "is_read": false,
+        "created_at": "2026-09-03 09:55:18",
+        "notification_id": 5
+    },
+    {
+        "user_id": 5,
+        "report_id": 1007,
+        "title": "Report #1007 Status: PENDING",
+        "message": "Your report #1007 (illegal dumping) is now PENDING by Municipal Solid Waste Management Dept.",
+        "type": "PENDING",
+        "is_read": false,
+        "created_at": "2026-09-03 09:56:29",
+        "notification_id": 6
+    },
+    {
+        "user_id": 5,
+        "report_id": 1007,
+        "title": "Report #1007 Status: PENDING",
+        "message": "Your report #1007 (illegal dumping) is now PENDING by Municipal Solid Waste Management Dept.",
+        "type": "PENDING",
+        "is_read": false,
+        "created_at": "2026-09-03 09:56:35",
+        "notification_id": 7
+    },
+    {
+        "user_id": 5,
+        "report_id": 1007,
+        "title": "Report #1007 Status: PENDING",
+        "message": "Your report #1007 (illegal dumping) is now PENDING by Municipal Solid Waste Management Dept. Remarks: \"we resolve your problem\"",
+        "type": "PENDING",
+        "is_read": false,
+        "created_at": "2026-09-03 09:57:27",
+        "notification_id": 8
+    }
+]

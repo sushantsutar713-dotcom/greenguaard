@@ -1,0 +1,284 @@
+[
+    {
+        "report_id": 1001,
+        "user_id": 2,
+        "user_name": "Priya Sharma",
+        "title": "Illegal Construction Debris & Chemical Dumping near Riverbank",
+        "category": "ILLEGAL_DUMPING",
+        "issue_type": "ILLEGAL_DUMPING",
+        "description": "Massive pile of mixed construction rubble, hazardous chemical drums, and unsegregated solid waste dumped along the riverbank buffer zone.",
+        "image_path": "uploads/sample_dumping.svg",
+        "latitude": 19.076,
+        "longitude": 72.8777,
+        "address": "Mithi River Corridor, Bandra Kurla Complex, Mumbai",
+        "reported_at": "2026-09-02 09:30:00",
+        "severity": "CRITICAL",
+        "status": "ACTION_INITIATED",
+        "priority_score": 89,
+        "department": "Municipal Solid Waste Management Dept",
+        "ai": {
+            "source": "Google Gemini 1.5 Flash Vision",
+            "category": "ILLEGAL_DUMPING",
+            "confidence": 95,
+            "suggested_severity": "CRITICAL",
+            "description": "Massive accumulation of commercial debris, plastic drums, and concrete rubble obstructing waterway drainage.",
+            "environmental_impact": "Severe risk of toxic runoff into the river, groundwater leachate infiltration, and monsoon flood obstruction.",
+            "recommendation": "Deploy heavy earthmovers for emergency clearance, cordon off site, and install CCTV monitoring."
+        },
+        "community": {
+            "confirmations": 28,
+            "disputes": 0,
+            "evidence_count": 4
+        },
+        "community_users": [
+            {
+                "user_id": 3,
+                "action": "CONFIRM",
+                "created_at": "2026-09-02 10:15:00"
+            },
+            {
+                "user_id": 4,
+                "action": "CONFIRM",
+                "created_at": "2026-09-02 11:45:00"
+            }
+        ],
+        "admin_notes": "Sanitation Task Force dispatched with 4 dump trucks. Debris removal 65% complete. Police complaint filed against dumping contractor.",
+        "created_at": "2026-09-02 09:30:00",
+        "updated_at": "2026-09-03 08:30:00"
+    },
+    {
+        "report_id": 1002,
+        "user_id": 3,
+        "user_name": "Rahul Verma",
+        "title": "Unauthorized Heritage Tree Felling in Protected Forest Buffer",
+        "category": "TREE_LOSS",
+        "issue_type": "TREE_LOSS",
+        "description": "Multiple 40+ year-old indigenous trees felled overnight without municipal tree authority permits along urban green buffer corridor.",
+        "image_path": "uploads/sample_tree.svg",
+        "latitude": 19.1136,
+        "longitude": 72.8697,
+        "address": "Aarey Colony Perimeter, Goregaon East, Mumbai",
+        "reported_at": "2026-09-02 14:00:00",
+        "severity": "CRITICAL",
+        "status": "VERIFIED",
+        "priority_score": 92,
+        "department": "Forest & Tree Protection Authority",
+        "ai": {
+            "source": "Google Gemini 1.5 Flash Vision",
+            "category": "TREE_LOSS",
+            "confidence": 96,
+            "suggested_severity": "CRITICAL",
+            "description": "Freshly cut down mature tree trunks with power saw markings across protected canopy zone.",
+            "environmental_impact": "Immediate loss of urban carbon sink, biodiversity corridor fragmentation, and soil erosion risk.",
+            "recommendation": "Issue immediate stop-work order under Tree Protection Act and initiate legal FIR against offenders."
+        },
+        "community": {
+            "confirmations": 42,
+            "disputes": 0,
+            "evidence_count": 7
+        },
+        "community_users": [
+            {
+                "user_id": 2,
+                "action": "CONFIRM",
+                "created_at": "2026-09-02 14:30:00"
+            }
+        ],
+        "admin_notes": "Municipal Tree Officer inspected site. Official cease-and-desist order served. Compulsory afforestation fine levied.",
+        "created_at": "2026-09-02 14:00:00",
+        "updated_at": "2026-09-02 17:15:00"
+    },
+    {
+        "report_id": 1003,
+        "user_id": 2,
+        "user_name": "Priya Sharma",
+        "title": "Commercial Plastic & Scrap Rubber Open Waste Burning",
+        "category": "WASTE_BURNING",
+        "issue_type": "WASTE_BURNING",
+        "description": "Scrap tire and synthetic waste openly ignited beside residential sector, generating heavy black particulate plumes and chemical odors.",
+        "image_path": "uploads/sample_burning.svg",
+        "latitude": 19.033,
+        "longitude": 73.0297,
+        "address": "Sector 19, Vashi, Navi Mumbai",
+        "reported_at": "2026-09-01 17:45:00",
+        "severity": "HIGH",
+        "status": "RESOLVED",
+        "priority_score": 30,
+        "department": "Fire & Disaster Emergency Services",
+        "ai": {
+            "source": "Google Gemini 1.5 Flash Vision",
+            "category": "WASTE_BURNING",
+            "confidence": 91,
+            "suggested_severity": "HIGH",
+            "description": "Open ground fire consuming synthetic polymers with dense particulate and carbon smoke.",
+            "environmental_impact": "Emissions of carcinogenic dioxins, furans, and hazardous PM2.5 particles affecting surrounding 2km zone.",
+            "recommendation": "Emergency fire tender suppression and immediate air quality monitoring."
+        },
+        "community": {
+            "confirmations": 19,
+            "disputes": 0,
+            "evidence_count": 2
+        },
+        "community_users": [],
+        "admin_notes": "Fire unit doused combustion within 40 minutes. Waste owner identified and penalized ₹25,000 under National Clean Air Programme.",
+        "created_at": "2026-09-01 17:45:00",
+        "updated_at": "2026-09-02 08:30:00"
+    },
+    {
+        "report_id": 1004,
+        "user_id": 3,
+        "user_name": "Rahul Verma",
+        "title": "Untreated Industrial Chemical Effluent Gushing into Public Canal",
+        "category": "WATER_POLLUTION",
+        "issue_type": "WATER_POLLUTION",
+        "description": "Heavy orange toxic chemical effluent being discharged continuously through an unapproved concrete culvert directly into local irrigation canal.",
+        "image_path": "uploads/sample_pollution.svg",
+        "latitude": 19.2183,
+        "longitude": 72.9781,
+        "address": "Wagle Industrial Estate, Phase II, Thane West",
+        "reported_at": "2026-09-03 08:15:00",
+        "severity": "CRITICAL",
+        "status": "UNDER_REVIEW",
+        "priority_score": 85,
+        "department": "State Pollution Control Board (SPCB)",
+        "ai": {
+            "source": "Google Gemini 1.5 Flash Vision",
+            "category": "WATER_POLLUTION",
+            "confidence": 98,
+            "suggested_severity": "CRITICAL",
+            "description": "High-volume chemical discharge turning canal water bright orange with severe surface foaming.",
+            "environmental_impact": "Severe aquatic toxicity, bioaccumulation of heavy metals, and downstream soil contamination.",
+            "recommendation": "Immediate water sampling, chemical titration analysis, and emergency pipeline sealing."
+        },
+        "community": {
+            "confirmations": 15,
+            "disputes": 0,
+            "evidence_count": 3
+        },
+        "community_users": [
+            {
+                "user_id": 2,
+                "action": "CONFIRM",
+                "created_at": "2026-09-03 08:45:00"
+            }
+        ],
+        "admin_notes": "SPCB field surveillance team dispatched for water quality titration & chemical tracing.",
+        "created_at": "2026-09-03 08:15:00",
+        "updated_at": "2026-09-03 09:00:00"
+    },
+    {
+        "report_id": 1005,
+        "user_id": 4,
+        "user_name": "Ananya Sen",
+        "title": "Mangrove Wetland Choked by Microplastics & Single-Use Packaging",
+        "category": "PLASTIC_POLLUTION",
+        "issue_type": "PLASTIC_POLLUTION",
+        "description": "Over 500 meters of coastal mangrove root systems completely blanketed by non-biodegradable PET bottles, poly-sacks, and food containers.",
+        "image_path": "uploads/sample_plastic.svg",
+        "latitude": 19.0144,
+        "longitude": 72.8479,
+        "address": "Mahim Wetland & Creek Sanctuary, Mumbai",
+        "reported_at": "2026-09-03 09:40:00",
+        "severity": "HIGH",
+        "status": "PENDING",
+        "priority_score": 72,
+        "department": "Coastal Zone Management Authority",
+        "ai": {
+            "source": "Google Gemini 1.5 Flash Vision",
+            "category": "PLASTIC_POLLUTION",
+            "confidence": 93,
+            "suggested_severity": "HIGH",
+            "description": "Dense matting of floating plastic containers and nylon nets obstructing tidal wetland vegetation.",
+            "environmental_impact": "Pneumatophore root suffocation, fish nursery destruction, and marine wildlife ingestion hazard.",
+            "recommendation": "Deploy mechanized floating trash skimmers and organize volunteer coastal cleanup drive."
+        },
+        "community": {
+            "confirmations": 11,
+            "disputes": 0,
+            "evidence_count": 2
+        },
+        "community_users": [],
+        "admin_notes": "",
+        "created_at": "2026-09-03 09:40:00",
+        "updated_at": "2026-09-03 09:40:00"
+    },
+    {
+        "report_id": 1006,
+        "user_id": 2,
+        "user_name": "Priya Sharma",
+        "title": "Unfiltered Heavy Smoke & VOC Emissions from Metal Smelter Stack",
+        "category": "INDUSTRIAL_POLLUTION",
+        "issue_type": "INDUSTRIAL_POLLUTION",
+        "description": "Continuous billowing of dark sulfurous exhaust fumes from factory chimneys without operating wet scrubbers.",
+        "image_path": "uploads/sample_industrial.svg",
+        "latitude": 19.1762,
+        "longitude": 72.9525,
+        "address": "Bhandup West Industrial Complex, Mumbai",
+        "reported_at": "2026-09-03 10:20:00",
+        "severity": "HIGH",
+        "status": "VERIFIED",
+        "priority_score": 76,
+        "department": "State Pollution Control Board (SPCB)",
+        "ai": {
+            "source": "Google Gemini 1.5 Flash Vision",
+            "category": "INDUSTRIAL_POLLUTION",
+            "confidence": 94,
+            "suggested_severity": "HIGH",
+            "description": "Heavy opaque industrial exhaust plume discharging directly into atmospheric inversion layer.",
+            "environmental_impact": "High concentrations of sulfur dioxide (SO2) and volatile organic compounds impacting neighboring school zones.",
+            "recommendation": "Perform unannounced stack emission audit and enforce installation of continuous emission monitoring system (CEMS)."
+        },
+        "community": {
+            "confirmations": 16,
+            "disputes": 0,
+            "evidence_count": 3
+        },
+        "community_users": [],
+        "admin_notes": "Official inspection notice served to smelter facility manager.",
+        "created_at": "2026-09-03 10:20:00",
+        "updated_at": "2026-09-03 11:00:00"
+    },
+    {
+        "user_id": 5,
+        "user_name": "cs",
+        "title": "illegal dumping",
+        "category": "ILLEGAL_DUMPING",
+        "issue_type": "ILLEGAL_DUMPING",
+        "description": "Accumulated heap of mixed municipal solid waste, construction rubble, and unsegregated refuse. Ecological impact: Soil degradation, leachate runoff into storm drains, and vermin breeding hazards.",
+        "image_path": "uploads/evidence_1788422118_4ce3a4cf.jpeg",
+        "latitude": 16.26656,
+        "longitude": 73.74361,
+        "address": "Kasalkarwadi, Kankavali, Kankavli Taluka, Sindhudurg, Maharashtra, 416602, India",
+        "contact_phone": "",
+        "reported_at": "2026-09-03 09:55:18",
+        "severity": "HIGH",
+        "status": "PENDING",
+        "priority_score": 48,
+        "department": "Municipal Solid Waste Management Dept",
+        "ai": {
+            "source": "GreenGuard AI Vision Engine",
+            "category": "ILLEGAL_DUMPING",
+            "confidence": 90,
+            "suggested_severity": "HIGH",
+            "description": "Accumulated heap of mixed municipal solid waste, construction rubble, and unsegregated refuse.",
+            "environmental_impact": "Soil degradation, leachate runoff into storm drains, and vermin breeding hazards.",
+            "recommendation": "Schedule municipal sanitation clearance with earthmovers and install anti-dumping surveillance signage."
+        },
+        "community": {
+            "confirmations": 1,
+            "disputes": 0,
+            "evidence_count": 1
+        },
+        "community_users": [
+            {
+                "user_id": 5,
+                "action": "CONFIRM",
+                "created_at": "2026-09-03 09:55:18"
+            }
+        ],
+        "admin_notes": "we resolve your problem",
+        "created_at": "2026-09-03 09:55:18",
+        "updated_at": "2026-09-03 09:57:27",
+        "report_id": 1007
+    }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "report_id": 1001,
+    "user_id": 2,
+    "user_name": "Priya Sharma",
+    "issue_type": "ILLEGAL_DUMPING",
+    "description": "Massive pile of mixed construction debris and toxic plastic containers dumped beside riverbank.",
+    "image_path": "uploads/sample_dumping.jpg",
+    "latitude": 19.0760,
+    "longitude": 72.8777,
+    "address": "Mithi River Corridor, Mumbai",
+    "reported_at": "2026-09-02 09:30:00",
+    "severity": "HIGH",
+    "status": "IN_PROGRESS",
+    "priority_score": 78,
+    "ai": {
+      "category": "ILLEGAL_DUMPING",
+      "confidence": 94,
+      "suggested_severity": "HIGH",
+      "recommendation": "High risk of waterway contamination. Municipal debris clearance and perimeter barricades recommended."
+    },
+    "community": {
+      "confirmations": 14,
+      "disputes": 0,
+      "evidence_count": 3
+    },
+    "community_users": [
+      {
+        "user_id": 3,
+        "action": "CONFIRM",
+        "created_at": "2026-09-02 10:15:00"
+      }
+    ],
+    "admin_notes": "Sanitation task force dispatched to site with earthmovers.",
+    "created_at": "2026-09-02 09:30:00",
+    "updated_at": "2026-09-02 15:00:00"
+  },
+  {
+    "report_id": 1002,
+    "user_id": 3,
+    "user_name": "Rahul Verma",
+    "issue_type": "TREE_LOSS",
+    "description": "Multiple mature heritage trees felled without permits along urban green buffer zone.",
+    "image_path": "uploads/sample_tree.jpg",
+    "latitude": 19.1136,
+    "longitude": 72.8697,
+    "address": "Aarey Colony Perimeter, Mumbai",
+    "reported_at": "2026-09-02 14:00:00",
+    "severity": "CRITICAL",
+    "status": "VERIFIED",
+    "priority_score": 88,
+    "ai": {
+      "category": "TREE_LOSS",
+      "confidence": 92,
+      "suggested_severity": "CRITICAL",
+      "recommendation": "Severe canopy depletion. Direct alert dispatched to Forest & Tree Protection Authority."
+    },
+    "community": {
+      "confirmations": 24,
+      "disputes": 1,
+      "evidence_count": 5
+    },
+    "community_users": [
+      {
+        "user_id": 2,
+        "action": "CONFIRM",
+        "created_at": "2026-09-02 14:30:00"
+      }
+    ],
+    "admin_notes": "Official stop-work order issued by Municipal Tree Officer.",
+    "created_at": "2026-09-02 14:00:00",
+    "updated_at": "2026-09-02 16:20:00"
+  },
+  {
+    "report_id": 1003,
+    "user_id": 2,
+    "user_name": "Priya Sharma",
+    "issue_type": "WASTE_BURNING",
+    "description": "Commercial plastic and scrap rubber burned openly, generating thick toxic smoke near housing complex.",
+    "image_path": "uploads/sample_burning.jpg",
+    "latitude": 19.0330,
+    "longitude": 73.0297,
+    "address": "Sector 19, Navi Mumbai",
+    "reported_at": "2026-09-01 17:45:00",
+    "severity": "MEDIUM",
+    "status": "RESOLVED",
+    "priority_score": 35,
+    "ai": {
+      "category": "WASTE_BURNING",
+      "confidence": 89,
+      "suggested_severity": "MEDIUM",
+      "recommendation": "Toxic air particulate hazard. Immediate fire dousing and fine enforcement required."
+    },
+    "community": {
+      "confirmations": 9,
+      "disputes": 0,
+      "evidence_count": 1
+    },
+    "community_users": [],
+    "admin_notes": "Fire unit extinguished burning site. Violator fined under clean air bylaws.",
+    "created_at": "2026-09-01 17:45:00",
+    "updated_at": "2026-09-02 08:30:00"
+  },
+  {
+    "report_id": 1004,
+    "user_id": 3,
+    "user_name": "Rahul Verma",
+    "issue_type": "POLLUTION",
+    "description": "Chemical effluent discharge turned local drainage canal bright orange with noxious fumes.",
+    "image_path": "uploads/sample_pollution.jpg",
+    "latitude": 19.2183,
+    "longitude": 72.9781,
+    "address": "Wagle Industrial Estate, Thane",
+    "reported_at": "2026-09-03 08:15:00",
+    "severity": "HIGH",
+    "status": "PENDING",
+    "priority_score": 65,
+    "ai": {
+      "category": "POLLUTION",
+      "confidence": 96,
+      "suggested_severity": "HIGH",
+      "recommendation": "Industrial chemical contaminant detected. Water quality sampling team required."
+    },
+    "community": {
+      "confirmations": 7,
+      "disputes": 0,
+      "evidence_count": 2
+    },
+    "community_users": [],
+    "admin_notes": "",
+    "created_at": "2026-09-03 08:15:00",
+    "updated_at": "2026-09-03 08:15:00"
+  }
+]
