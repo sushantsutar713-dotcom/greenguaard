@@ -1,0 +1,13 @@
+# Configuration containing private API keys
+config/config.php
+
+# Uploaded user images (keep folder structure)
+uploads/*
+!uploads/.gitkeep
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
