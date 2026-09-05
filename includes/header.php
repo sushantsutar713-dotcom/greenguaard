@@ -28,12 +28,21 @@ if ($isLoggedIn && isset($currentUser['user_id'])) {
 $pageTitle = $pageTitle ?? (defined('APP_NAME') ? APP_NAME : 'GreenGuard') . ' — Community Environmental Threat Platform';
 $activeNav = $activeNav ?? '';
 $baseUrl = defined('BASE_URL') ? BASE_URL : '';
+// Auto-upgrade protocol to HTTPS on Render or secure proxies to prevent mixed content
+if (!empty($baseUrl) && (
+    (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'onrender.com') !== false) ||
+    (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) ||
+    (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+)) {
+    $baseUrl = preg_replace('/^http:/i', 'https:', $baseUrl);
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title><?= htmlspecialchars($pageTitle) ?></title>
     <meta name="description" content="GreenGuard is a community-powered environmental threat detection, reporting, verification and resolution platform powered by Leaflet.js, and Google Gemini AI.">
     

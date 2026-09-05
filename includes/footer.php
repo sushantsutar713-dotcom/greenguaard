@@ -3,6 +3,14 @@
  * GreenGuard — Reusable Footer & Script Loader
  */
 $baseUrl = defined('BASE_URL') ? BASE_URL : '';
+// Auto-upgrade protocol to HTTPS on Render or secure proxies to prevent mixed content
+if (!empty($baseUrl) && (
+    (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'onrender.com') !== false) ||
+    (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) ||
+    (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+)) {
+    $baseUrl = preg_replace('/^http:/i', 'https:', $baseUrl);
+}
 ?>
     <!-- Footer -->
     <footer class="footer">

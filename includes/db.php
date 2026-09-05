@@ -5,6 +5,12 @@
  * Provides thread-safe, structured CRUD operations for JSON storage.
  */
 
+if (file_exists(__DIR__ . '/../config/config.php')) {
+    require_once __DIR__ . '/../config/config.php';
+} elseif (file_exists(__DIR__ . '/../config/config.example.php')) {
+    require_once __DIR__ . '/../config/config.example.php';
+}
+
 if (!defined('DATA_PATH')) {
     define('DATA_PATH', __DIR__ . '/../data/');
 }
